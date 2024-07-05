@@ -17,3 +17,8 @@
 ### To'xtab turgan containerni ishga tushurish kodi quidagicha 👇
 
         docker container start container_name
+
+### Containerga ulanish uchun quidagicha buyruq berish lozim! 👇
+
+        docker container attach container_name
+

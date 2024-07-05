@@ -18,6 +18,11 @@
 
         docker container start container_name
 
+### Ishlab turgan containerni to'xtatishni 2 xil usuli mavjud
+
+1.      docker container stop container_name
+2.      docker container kill container_name 
+
 ### Containerga ulanish uchun quidagicha buyruq berish lozim! 👇
 
         docker container attach container_name

@@ -13,3 +13,7 @@
 
 * __image bu darturimiz filelar__
 * __container image ishlab turgan xolati Yani ishlab turgan image bu CONTAINER__
+
+### To'xtab turgan containerni ishga tushurish kodi quidagicha 👇
+
+        docker container start container_name

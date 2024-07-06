@@ -1,5 +1,9 @@
 # Docker haqida ma'lumotlar o'zbek tilida
 
+## CONTAINER HAQIDA QISQACHA
+
+___
+
 ### Dockerda 2 xil commandlar mavjud bular
 
 1. __Management command__
@@ -44,5 +48,13 @@ ___
         docker continer rm kontainer_name
 
 ___
+
 ### 🔠 Barcha ishlamayotgan containerlarni ochirish uchun quidagicha buyruqdan foyadalanish kerak
+
     docker container prune
+
+___
+
+## IMAGE haqida
+
+___

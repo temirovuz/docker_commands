@@ -33,14 +33,16 @@ ___
 
 ___
 
-### 🔰Containerga ulanish uchun quidagicha buyruq berish lozim! 👇
+### 🔰 Containerga ulanish uchun quidagicha buyruq berish lozim! 👇
 
         docker container attach container_name
 
 ___ 
 
-### ❌Containerni ochish buyrug'i quidagicha 👇
+### ❌ Containerni ochish buyrug'i quidagicha 👇
 
         docker continer rm kontainer_name
 
 ___
+### 🔠 Barcha ishlamayotgan containerlarni ochirish uchun quidagicha buyruqdan foyadalanish kerak
+    docker container prune

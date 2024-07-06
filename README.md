@@ -1,6 +1,6 @@
 # Docker haqida ma'lumotlar o'zbek tilida
 
-## CONTAINER HAQIDA QISQACHA
+## 🗃 CONTAINER HAQIDA QISQACHA
 
 ___
 
@@ -59,24 +59,24 @@ ___
 
 ___
 
-### Imageni ishga tushurish quidagicha
+### 🔰 Imageni ishga tushurish quidagicha
 
         docker image run image_name
 
 ___
 
-### Imageni faqaat bittasini o'chirish quidagicha
+### ❌ Imageni faqaat bittasini o'chirish quidagicha
 
         docker image rm -f image_name
 
 ___
 
-### Barcha ishlamayotgan imagelarni ochirish uchun
+### ❌ Barcha ishlamayotgan imagelarni ochirish uchun
 
         docker image prune
 
 ___
 
-### Imagelar royxatini korish uchun
+### 🔶 Imagelar royxatini korish uchun
 
         docker image ls

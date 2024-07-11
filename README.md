@@ -38,7 +38,7 @@ ___
 
 ___
 
-###        
+###            
 
 ## 🗃 CONTAINER HAQIDA QISQACHA
 
@@ -64,34 +64,52 @@ ___
 
 ___
 
+### `🔰`Kiritilgan image Yaratadi va ishga tushurish uchun
+
+    docker container run image_name
+
+___
+
+### Containerni qayta ishga tushurish uchun
+
+    docker restart container_id
+
+___
+
 ### `✅` To'xtab turgan containerni ishga tushurish kodi quidagicha 👇
 
-    docker container start container_name
+    docker container start container_id
 
 ___
 
 ### `🛑`Ishlab turgan containerni to'xtatishni 2 xil usuli mavjud
 
-1.     docker container stop container_name
-2.     docker container kill container_name 
+1.     docker container stop container_id
+2.     docker container kill container_id 
 
 ___
 
 ### `🔰` Containerga ulanish uchun quidagicha buyruq berish lozim! 👇
 
-    docker container attach container_name
+    docker container attach container_id
 
 ___ 
 
-### `❌` Containerni ochish buyrug'i quidagicha 👇
+### `❌` Containerni o'chirishsh buyrug'i quidagicha 👇
 
-    docker container rm kontainer_name
+    docker container rm kontainer_id
 
 ___
 
-### 🔠 Barcha ishlamayotgan containerlarni ochirish uchun quidagicha buyruqdan foyadalanish kerak
+### 🔠 Barcha ishlamayotgan containerlarni o'chirish uchun quidagicha buyruqdan foyadalanish kerak
 
     docker container prune
+
+___
+
+### Docker containerdagi loglarni korish uchun
+
+    docker logs container_id
 
 ___
 

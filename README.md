@@ -185,3 +185,14 @@ ___
 ### Barcha `Networkinglarni` o'chirish
 
     docker network prune
+
+> ## Docker-Compose
+
+### Docker-compose fileni ishga tushurish
+    docker-compose up
+---
+### Docker-compose ish faoliyani to'xtatish
+    docker-compose down
+---
+### Docker-composelar ro'yxatini korish
+    docker-compose ps

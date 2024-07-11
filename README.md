@@ -2,25 +2,25 @@
 
 ## Docker Asosiy buyruqlar
 
-### `🔰 `Docker versiasini bilish
+### `🔰`Docker versiasini bilish
 
         docker -v
 
 ___
 
-### `🔰 `Docker haqida butun tizim ma'lumotlari ko'rish
+### `🔰`Docker haqida butun tizim ma'lumotlari ko'rish
 
         docker info
 
 ___
 
-### `🔰 `Docker accuntga kirishw
+### `🔰`Docker accuntga kirishw
 
         docker login
 
 ___
 
-### `🔰 `Docker accountdan chiqish
+### `🔰`Docker accountdan chiqish
 
         docker logout
 

@@ -186,7 +186,7 @@ ___
 
     docker network prune
 
-> ## Docker-Compose
+> ## 🐋 Docker-Compose
 
 ### Docker-compose fileni ishga tushurish
     docker-compose up

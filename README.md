@@ -1,5 +1,33 @@
 # Docker haqida ma'lumotlar o'zbek tilida
 
+## Docker Asosiy buyruqlar
+
+### `🔰 `Docker versiasini bilish
+
+        docker -v
+
+___
+
+### `🔰 `Docker haqida butun tizim ma'lumotlari ko'rish
+
+        docker info
+
+___
+
+### `🔰 `Docker accuntga kirishw
+
+        docker login
+
+___
+
+### `🔰 `Docker accountdan chiqish
+
+        docker logout
+
+___
+
+###   
+
 ## 🗃 CONTAINER HAQIDA QISQACHA
 
 ___
@@ -11,39 +39,39 @@ ___
 
  ___
 
-### 🔶Docker container ro'yxatini ko'rish kodi
+### `🔶`Docker container ro'yxatini ko'rish kodi
 
         docker container ls -a
 
 ___
 
-### ♻ Docker image va container o'rtasidagi farq
+### `♻` Docker image va container o'rtasidagi farq
 
 * __image bu darturimiz filelar__
 * __container image ishlab turgan xolati Yani ishlab turgan image bu CONTAINER__
 
 ___
 
-### ✅To'xtab turgan containerni ishga tushurish kodi quidagicha 👇
+### `✅` To'xtab turgan containerni ishga tushurish kodi quidagicha 👇
 
         docker container start container_name
 
 ___
 
-### 🛑Ishlab turgan containerni to'xtatishni 2 xil usuli mavjud
+### `🛑`Ishlab turgan containerni to'xtatishni 2 xil usuli mavjud
 
 1.      docker container stop container_name
 2.      docker container kill container_name 
 
 ___
 
-### 🔰 Containerga ulanish uchun quidagicha buyruq berish lozim! 👇
+### `🔰` Containerga ulanish uchun quidagicha buyruq berish lozim! 👇
 
         docker container attach container_name
 
 ___ 
 
-### ❌ Containerni ochish buyrug'i quidagicha 👇
+### `❌` Containerni ochish buyrug'i quidagicha 👇
 
         docker container rm kontainer_name
 
@@ -59,24 +87,24 @@ ___
 
 ___
 
-### 🔰 Imageni ishga tushurish quidagicha
+### `🔰` Imageni ishga tushurish quidagicha
 
         docker image run image_name
 
 ___
 
-### ❌ Imageni faqaat bittasini o'chirish quidagicha
+### `❌` Imageni faqaat bittasini o'chirish quidagicha
 
         docker image rm -f image_name
 
 ___
 
-### ❌ Barcha ishlamayotgan imagelarni ochirish uchun
+### `❌` Barcha ishlamayotgan imagelarni ochirish uchun
 
         docker image prune
 
 ___
 
-### 🔶 Imagelar royxatini korish uchun
+### `🔶` Imagelar royxatini korish uchun
 
         docker image ls

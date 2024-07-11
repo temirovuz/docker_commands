@@ -1,6 +1,6 @@
 # Docker haqida ma'lumotlar o'zbek tilida
 
-## Docker Asosiy buyruqlar
+> ## Docker Asosiy buyruqlar
 
 ### `🔰`Docker versiasini bilish
 
@@ -38,9 +38,9 @@ ___
 
 ___
 
-###            
+###               
 
-## 🗃 CONTAINER HAQIDA QISQACHA
+> ## 🗃 CONTAINER HAQIDA QISQACHA
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 ___
 
-## IMAGE haqida
+> ## IMAGE haqida
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 ### `❌` Imageni faqaat bittasini o'chirish quidagicha
 
-    docker image rm -f image_name
+    docker image rmi image_name
 
 ___
 
@@ -137,4 +137,29 @@ ___
 
 ### `🔶` Imagelar royxatini korish uchun
 
-    docker image ls
+    docker images
+
+___
+
+> ## Volumes haqida
+
+### Barcha volumelar royxati
+
+    docker volume ls
+
+### Volume yaratish
+
+    docker volume create volume_name
+
+### Volumeni bittasini o'chirish
+
+    docker volume rm volume_name
+
+### Barcha Volumlarni ochirish uchun
+
+    docker volume prune
+
+
+
+
+ 

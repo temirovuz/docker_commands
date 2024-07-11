@@ -45,7 +45,7 @@ ___
 
 ### ❌ Containerni ochish buyrug'i quidagicha 👇
 
-        docker continer rm kontainer_name
+        docker container rm kontainer_name
 
 ___
 

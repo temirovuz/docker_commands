@@ -38,7 +38,7 @@ ___
 
 ___
 
-###               
+###                       
 
 > ## 🗃 CONTAINER HAQIDA QISQACHA
 
@@ -159,7 +159,29 @@ ___
 
     docker volume prune
 
+*** 
+> ## 🌐 Docker NETWORKING haqida
 
+___
 
+### Barcha `Networking` ro'yxati
 
- 
+    docker network ls
+
+---
+
+### `Networking` yaratish
+
+    docker network create network_name
+
+---
+
+### `Networking` bittasini o'chirish
+
+    docker neteork rm network_name
+
+---
+
+### Barcha `Networkinglarni` o'chirish
+
+    docker network prune

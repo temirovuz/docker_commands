@@ -4,29 +4,41 @@
 
 ### `🔰`Docker versiasini bilish
 
-        docker -v
+    docker -v
 
 ___
 
-### `🔰`Docker haqida butun tizim ma'lumotlari ko'rish
+### `📄`Docker haqida butun tizim ma'lumotlari ko'rish
 
-        docker info
+    docker info
 
 ___
 
 ### `🔰`Docker accuntga kirishw
 
-        docker login
+    docker login
 
 ___
 
 ### `🔰`Docker accountdan chiqish
 
-        docker logout
+    docker logout
 
 ___
 
-###   
+### Docker HUB dan image qidirish uchun quidagi buyruqdan foylanish mumkin
+
+    docker search image_name
+
+___
+
+### Docker HUBdagi image yuklab olish uchun
+
+    docker pull image_name
+
+___
+
+###        
 
 ## 🗃 CONTAINER HAQIDA QISQACHA
 
@@ -41,7 +53,7 @@ ___
 
 ### `🔶`Docker container ro'yxatini ko'rish kodi
 
-        docker container ls -a
+    docker container ls -a
 
 ___
 
@@ -54,26 +66,26 @@ ___
 
 ### `✅` To'xtab turgan containerni ishga tushurish kodi quidagicha 👇
 
-        docker container start container_name
+    docker container start container_name
 
 ___
 
 ### `🛑`Ishlab turgan containerni to'xtatishni 2 xil usuli mavjud
 
-1.      docker container stop container_name
-2.      docker container kill container_name 
+1.     docker container stop container_name
+2.     docker container kill container_name 
 
 ___
 
 ### `🔰` Containerga ulanish uchun quidagicha buyruq berish lozim! 👇
 
-        docker container attach container_name
+    docker container attach container_name
 
 ___ 
 
 ### `❌` Containerni ochish buyrug'i quidagicha 👇
 
-        docker container rm kontainer_name
+    docker container rm kontainer_name
 
 ___
 
@@ -89,22 +101,22 @@ ___
 
 ### `🔰` Imageni ishga tushurish quidagicha
 
-        docker image run image_name
+    docker image run image_name
 
 ___
 
 ### `❌` Imageni faqaat bittasini o'chirish quidagicha
 
-        docker image rm -f image_name
+    docker image rm -f image_name
 
 ___
 
 ### `❌` Barcha ishlamayotgan imagelarni ochirish uchun
 
-        docker image prune
+    docker image prune
 
 ___
 
 ### `🔶` Imagelar royxatini korish uchun
 
-        docker image ls
+    docker image ls

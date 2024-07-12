@@ -163,6 +163,7 @@ umumiy malumotlarni ulashishdir**
 
 > **Docker Volumes asosiy xususiyatlari**
 > 1. Persistent Storage (Doimiy xotira)
+>    * Volumes yordamida saqlangan ma'lumotlar konteyner o‘chirilgandan so‘ng ham saqlanadi.
 > 2. Data Sharing (Ma'lumot ulashish)
 > 3. Backup and Restore (Zaxira nusxalarini olish va tiklash)
 > 4. Performance (Ishlash tezligi)

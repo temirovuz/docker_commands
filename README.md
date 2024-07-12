@@ -48,7 +48,6 @@ ___
 
 > **Docker Container** - Bu Docker Image asosida ishlaydigan izolaysiyalangan muhitdir. Har bir kontenyer o'z operatsion
 > tizim kutubxonalari va bo'gliqliklari bilan birga keldi.
-___
 
 #### Dockerda 2 xil commandlar mavjud bular
 
@@ -119,12 +118,13 @@ ___
 
 ___
 
+#
+
 ## IMAGE haqida
 
 > **Docker Images** - Bu docker containerlarni yaratish uchun ishlatiladigan statik andozalar. Ular dastur va uning
 > barcha bog'liqliklarining o'z ichiga oladi. Docker images Docker HUB yoki boshqa Docker registerlaridan yuklanishi
 > mumkin
-
 
 #### `🔰` Imageni ishga tushurish quidagicha
 
@@ -150,7 +150,9 @@ ___
 
 ___
 
-> ## Volumes haqida
+#
+
+## Volumes haqida
 
 #### Barcha volumelar royxati
 
@@ -169,7 +171,8 @@ ___
     docker volume prune
 
 *** 
-> ## 🌐 Docker NETWORKING haqida
+#
+## 🌐 Docker NETWORKING haqida
 
 ___
 
@@ -195,7 +198,9 @@ ___
 
     docker network prune
 
-> ## 🐋 Docker-Compose
+#
+
+## 🐋 Docker-Compose
 
 #### Docker-compose fileni ishga tushurish
 

@@ -154,6 +154,13 @@ ___
 
 ## Volumes haqida
 
+> **Docker Volumes (Xotira hajmi)** - kontaynerda ishlatiladigan malumotlarni saqlash va boshqarish uchun ishlatiladi.
+> Kontaynerlar odatda **efemeral (muddati cheklangan)** boladi. Yani kontayber ochganda yoki qayta ishga tushurilganda
+> malumotlar yoqoladi. Docker Volumes esa **malumotlarni uzoq mudatli** saqlash imkonini beradi.
+
+> **Docker Volumes-ni asosiy maqsadi** - Konteynerlarning **o'zgaruvchan malumotlarini saqlash** va konteynerlar **o'rtasida
+umumiy malumotlarni ulashishdir**
+
 #### Barcha volumelar royxati
 
     docker volume ls
@@ -175,6 +182,7 @@ ___
 #
 
 ## 🌐 Docker NETWORKING haqida
+
 > **Docker tarmog'ida 3 asosiy tarmoq turi mavjud**
 > 1. **Bridge Network (Ko'plik tarmo'gi)**
 >      * Bu Docker-da yaratilgan asosiy tarmoq turi
@@ -217,7 +225,8 @@ ___
 ## 🐋 Docker-Compose
 
 > **Docker Compose** - Bu bir nechta docker konteynerlarni birgalikda boshqarish uchun ishlatiladigan vosita.
-> **Docker Compose** yordamida bir nechta xizmatlarni bitta konfiguratsiya fayli yordamida sozlash va ishga tushurish mumkin
+> **Docker Compose** yordamida bir nechta xizmatlarni bitta konfiguratsiya fayli yordamida sozlash va ishga tushurish
+> mumkin
 
 #### Docker-compose fileni ishga tushurish
 

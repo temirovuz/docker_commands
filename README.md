@@ -1,6 +1,10 @@
 # Docker haqida ma'lumotlar o'zbek tilida
 
-> ## Docker Asosiy buyruqlar
+> **Docker** — bu dasturlarni konteynerlarda ishga tushirish uchun foydalaniladigan ochiq kodli platforma. Docker
+> yordamida dasturlarni barcha kerakli kutubxonalar va bog'liqliklar bilan birga qadoqlab, turli muhitlarda bir xil
+> ishlashini ta'minlash mumkin
+
+## Docker Asosiy buyruqlar
 
 ### `🔰`Docker versiasini bilish
 
@@ -38,10 +42,12 @@ ___
 
 ___
 
-###                       
+###                           
 
-> ## 🗃 CONTAINER HAQIDA QISQACHA
+## 🗃 CONTAINER HAQIDA QISQACHA
 
+> **Docker Container** - Bu Docker Image asosida ishlaydigan izolaysiyalangan muhitdir. Har bir kontenyer o'z operatsion
+> tizim kutubxonalari va bo'gliqliklari bilan birga keldi.
 ___
 
 ### Dockerda 2 xil commandlar mavjud bular
@@ -113,8 +119,11 @@ ___
 
 ___
 
-> ## IMAGE haqida
+## IMAGE haqida
 
+> **Docker Images** - Bu docker containerlarni yaratish uchun ishlatiladigan statik andozalar. Ular dastur va uning
+> barcha bog'liqliklarining o'z ichiga oladi. Docker images Docker HUB yoki boshqa Docker registerlaridan yuklanishi
+> mumkin
 ___
 
 ### `🔰` Imageni ishga tushurish quidagicha
@@ -189,10 +198,17 @@ ___
 > ## 🐋 Docker-Compose
 
 ### Docker-compose fileni ishga tushurish
+
     docker-compose up
+
 ---
+
 ### Docker-compose ish faoliyani to'xtatish
+
     docker-compose down
+
 ---
+
 ### Docker-composelar ro'yxatini korish
+
     docker-compose ps

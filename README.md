@@ -171,9 +171,23 @@ ___
     docker volume prune
 
 *** 
-#
-## 🌐 Docker NETWORKING haqida
 
+#
+
+## 🌐 Docker NETWORKING haqida
+> **Docker tarmog'ida 3 asosiy tarmoq turi mavjud**
+> 1. **Bridge Network (Ko'plik tarmo'gi)**
+>   * Bu Docker-da yaratilgan asosiy tarmoq turi
+>   * Ushbu tarmoq turi **Default bridge** deb ham ataladi.
+>   * Konteynerlar faqat bir xil hostda bo‘lganda bir-biri bilan aloqa qila oladi.
+> 2. **Host Network (Host tarmo'gi)**
+>   * Bu tarmoq turi konteynerlarni Docker host tarmog‘iga bevosita ulaydi.
+>   * u tarmoqda konteynerlar hostning IP-manzilini va portlarini ishlatadi.
+>   * Konteynerlar bir xil hostda joylashgan barcha xizmatlar bilan bevosita aloqa o‘rnatishi mumkin.
+> 3. **Overlay Network (Overlay tarmog‘i)**
+>    * Bu tarmoq turi Docker swarm yoki Docker Enterprise-da foydalaniladi.
+>    * Bir nechta Docker hostlari orasida tarqalgan konteynerlarni ulaydi.
+>    * Bu tarmoq distributed environment (taqsimlangan muhit) uchun juda foydali.
 ___
 
 #### Barcha `Networking` ro'yxati
@@ -201,6 +215,9 @@ ___
 #
 
 ## 🐋 Docker-Compose
+
+> **Docker Compose** - Bu bir nechta docker konteynerlarni birgalikda boshqarish uchun ishlatiladigan vosita.
+> **Docker Compose** yordamida bir nechta xizmatlarni bitta konfiguratsiya fayli yordamida sozlash va ishga tushurish mumkin
 
 #### Docker-compose fileni ishga tushurish
 

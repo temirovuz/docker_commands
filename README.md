@@ -161,6 +161,13 @@ ___
 > **Docker Volumes-ni asosiy maqsadi** - Konteynerlarning **o'zgaruvchan malumotlarini saqlash** va konteynerlar **o'rtasida
 umumiy malumotlarni ulashishdir**
 
+> **Docker Volumes asosiy xususiyatlari**
+> 1. Persistent Storage (Doimiy xotira)
+> 2. Data Sharing (Ma'lumot ulashish)
+> 3. Backup and Restore (Zaxira nusxalarini olish va tiklash)
+> 4. Performance (Ishlash tezligi)
+
+
 #### Barcha volumelar royxati
 
     docker volume ls
@@ -227,6 +234,7 @@ ___
 > **Docker Compose** - Bu bir nechta docker konteynerlarni birgalikda boshqarish uchun ishlatiladigan vosita.
 > **Docker Compose** yordamida bir nechta xizmatlarni bitta konfiguratsiya fayli yordamida sozlash va ishga tushurish
 > mumkin
+
 
 #### Docker-compose fileni ishga tushurish
 

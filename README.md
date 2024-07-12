@@ -169,7 +169,11 @@ umumiy malumotlarni ulashishdir**
 >    * Bir nechta konteynerlar bir xil volume-ni ulashishi mumkin.
 >    * Bu konteynerlar orasida umumiy ma'lumotlar bilan ishlashni osonlashtiradi.
 > 3. Backup and Restore (Zaxira nusxalarini olish va tiklash)
+>    * Volume malumotlarni zaxiralash va qayta tiklashni soddalashtiradi.
+>    * Ma'lumotlar volume-lardan osongina eksport va import qilinishi mumkin.
 > 4. Performance (Ishlash tezligi)
+>    * Volumes odatda host tizimida saqlanadi, bu esa yuqori ish tezligini ta'minlaydi.
+>    * Konteyner ichida saqlangan ma'lumotlardan ko‘ra volumes ma'lumotlari tezroq va samaraliroq ishlaydi.
 
 
 #### Barcha volumelar royxati
